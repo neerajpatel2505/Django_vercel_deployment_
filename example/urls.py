@@ -7,8 +7,8 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('', index),
-    path('home', home,name="home"),
+    # path('', index),
+    path('', home,name="home"),
 ]
 
 
